@@ -26,7 +26,7 @@ write_files:
       var app = express()
       var os = require('os');
       app.get('/', function (req, res) {
-        res.send('Hello World from host ' + os.hostname() + '!')
+        res.send('Welcome to NetworkChuck Coffee!! Things are still brewing but this is a start!')
       })
       app.listen(3000, function () {
         console.log('Hello world app listening on port 3000!')
